@@ -56,11 +56,11 @@ Texnolize is a **professional hacker service**: it understands how attackers thi
 ### How Texnolize got here
 
 ```mermaid
-timeline
-    title Texnolize
-    Research Community : Sharing research on how attacks really work
-    Software Development : Turning that research into tools and software
-    IT Security : Offensive security, incident response and secure development as part of 7SECURE JAPAN
+flowchart LR
+    A["<b>1 · Research Community</b><br/>how attacks really work"]
+    B["<b>2 · Software Development</b><br/>research into tools and software"]
+    C["<b>3 · IT Security</b><br/>as part of 7SECURE JAPAN"]
+    A --> B --> C
 ```
 
 | Stage | Focus |
